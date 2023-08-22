@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Теоретичне питання</h1>
+
+    <dl>
+      <dt class="question__title">Наведіть кілька прикладів, коли доречно використовувати в коді конструкцію try...catch.</dt>
+      <dd class="question__text">Конструкція try...catch призначена для відловлювання помилок, або неочікуваних даних. Цю конструкцію доцільно використовувати коли ми отримуємо:
+        <ul class="question__textList">
+          <li  class="textItem">Дані з сервера. Тут можуть прийти не ті дані, неправильного формату, або виникне помилка через втрату з’єднання, недоступність сервера;</li>
+          <li  class="textItem">При перетворенні даних (розпарсити JSON);</li>
+          <li  class="textItem">Дані які ввів користувач. Користувач може ввести дані з недопустимими значеннями;</li>
+          <li  class="textItem">При роботі з файлами, тобто коли користувач не завантажив файл або завантажив файл не правильного формату.</li>
+        </ul>
+      </dd>
+    </dl>
+
+    <div id="root">
+      <h2 class="title">Список книг</h2>
+
+    </div>
+
+
+
+  </div>
+  
+
+  <script src="./main.js"></script>
+</body>
+</html>
